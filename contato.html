@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Saúde Mulher</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img width="50%" src="assets/img/logo-clinica-da-mulher.png">
+            </div>
+
+            <div class="main">
+                <div class="header">
+                    <!-- Aqui vai o seu header -->
+                    <img width="100%"
+                        src="https://images.tcdn.com.br/static_inst/meiosdepagamento/wp-content/uploads/2019/02/atendimento-ao-cliente-perfeito.jpg" />
+                </div>
+                <!-- Aqui vai o seu conteúdo -->
+                <div class="content">
+                    <p> Esta área é designada ao envio de solicitações ou dúvidas relacionadas a exames já agendados,
+                        reenvio de preparos de exames e prazos de resultados. Basta selecionar o motivo da solicitação
+                        no campo “Assunto”.
+                        Além disso, neste formulário, também é possível entrar em contato com a Ouvidoria da Clínica
+                        Saúde da Mulher para encaminhar sugestões, reclamações e elogios.
+                    </p>
+                    <form class="contato">
+                        <div class="row">
+                            <label>Assunto</label>
+                        </div>
+
+                        <div>
+                            <select name="Assunto">
+                                <option> Selecione </option>
+                                <option value="Elogio"> Elogio </option>
+                                <option value="reclamação"> Reclamação </option>
+                                <option value="Sugestão"> Sugestão </option>
+                                <option value="Dúvida"> Dúvida </option>
+                                <option value="Informação"> Informação sobre nossos produtos e serviços</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label>Nome</label> 
+                        </div>
+
+                        <div>
+                            <input type="text" name="name">
+                        </div>
+<!-- ARRUMAR 
+                        <div class="row">
+                            <label>CPF</label>
+                            <input type="number" name="cpf" oninput="mascara(this)">
+
+                            <label>Data de nascimento</label>
+                            <input type="date" name="data de nascimento"> <br>
+                        </div>
+-->
+                        <div class="row">
+                            <label>Email</label> 
+                        </div>
+
+                        <div>
+                            <input type="email" name="email"> 
+                        </div>
+
+                        <div>
+                            <label>Telefone</label> 
+                        </div>
+
+                        <div>
+                            <input type="tel" name="telefone">
+                        </div>
+                        
+                        <div class="row">
+                            <label> Mensagem </label> 
+                        </div>
+
+                        <div>
+                            <textarea></textarea>
+                        </div>
+
+                        <div class="row">
+                            <button type="submit">Enviar</button>
+                            <button type="reset"> Limpar tudo </button>
+                        </div>
+                </div>
+                </form>
+
+                <div class="footer">
+                    <!-- Aqui vai o seu rodapé -->
+                    <p>Clínica Saúde Mulher</p>
+                    <p>Rua Principal, 123</p>
+                    <p>Cidade, Estado, CEP</p>
+                    <p>Telefone: (11) 9999-9999</p>
+                    <p>Email: clinicaginecologica@gmail.com</p>
+                </div>
+            </div>
+        </div>
+</body>
+
+<link rel="stylesheet" href="assets/js/global.js">
+
+</html>
